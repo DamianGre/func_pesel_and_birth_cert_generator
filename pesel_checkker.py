@@ -2,7 +2,7 @@ from pesel_generator import generate_pesel
 from user_input import user_input
 
 
-def pesel_checkker():
+def pesel_checker():
     formula_digits = [1, 3, 7, 9, 1, 3, 7, 9, 1, 3, 1]
     pesel_bool = False
     pesel_to_check = ''
@@ -26,5 +26,5 @@ def pesel_checkker():
     return pesel_to_check
 
 
-print(pesel_checkker())
+print(pesel_checker())
 

@@ -1,5 +1,4 @@
 from number_generator import generate_five_number
-from user_input import user_input
 
 
 def generate_pesel(birth_date):
