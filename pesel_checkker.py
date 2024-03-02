@@ -1,5 +1,4 @@
 from pesel_generator import generate_pesel
-from number_generator import generate_five_number
 
 def pesel_checkker():
     forumla_digits = [1, 3, 7, 9, 1, 3, 7, 9, 1, 3, 1]
