@@ -19,11 +19,8 @@ def pesel_checkker():
         if checking % 10 == 0:
             pesel_bool = True
         else:
-            print("ZŁY PESEL: " + pesel_to_check)
             pesel_bool = False
-
-    print("Pesel jest poprawny: " + pesel_to_check)
 
     return pesel_to_check
 
-pesel_checkker()
+print(pesel_checkker())
