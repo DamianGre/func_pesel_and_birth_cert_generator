@@ -1,5 +1,6 @@
 import random
 
+
 def generate_five_number():
     five_number = ''
     for i in range(5):
